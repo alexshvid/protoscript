@@ -65,7 +65,7 @@ optional int32 Person:mul() = 10 {
  return val;
 }
 
-required Person Person() = 6 {
+required Person Person:new() = 6 {
   required Person p = {
      this.name = "";
      this.id = 0;
